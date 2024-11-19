@@ -1,0 +1,51 @@
+[
+    {
+        "Id": "f5795080-4468-11ee",
+        "Name": "Nicolas Chourot",
+        "Phone": "(450) 430-3120",
+        "Email": "Nicolas.Chourot@clg.qc.ca",
+        "Avatar": "f5795080-4468-11ee-8281-2f600646bb7f.jpeg"
+    },
+    {
+        "Id": "5b156ce0-46c0-11ee",
+        "Name": "Saliha Yacoub",
+        "Phone": "(450) 430-3120",
+        "Email": "Saliha.Yacoub@clg.qc.ca",
+        "Avatar": "5b156ce0-46c0-11ee-9c7d-4dfffb69e19c.png"
+    },
+    {
+        "Id": "78f177e0-46c0-11ee",
+        "Name": "Stéphane Chassé",
+        "Phone": "(450) 430-4120",
+        "Email": "Stephane.Chasse@clg.qc.ca",
+        "Avatar": "78f177e0-46c0-11ee-9c7d-4dfffb69e19c.png"
+    },
+    {
+        "Id": "a634d710-46c0-11ee",
+        "Name": "Patrice Roy",
+        "Phone": "(450) 430-3120",
+        "Email": "Patrice.Roy@clg.qc.ca",
+        "Avatar": "a634d710-46c0-11ee-9c7d-4dfffb69e19c.png"
+    },
+    {
+        "Id": "0e7c8d10-a5d7-11ef-942d-f9540d050917",
+        "Name": "Jean-Philippe Gilbert",
+        "Phone": "(438) 393-8840",
+        "Email": "jean.philippe.gilbert01@gmail.com",
+        "Avatar": "0e7c8d11-a5d7-11ef-942d-f9540d050917.jpeg"
+    },
+    {
+        "Id": "188907c0-a5d7-11ef-942d-f9540d050917",
+        "Name": "Grizlyzz",
+        "Phone": "(438) 393-8840",
+        "Email": "jean.philippe.gilbert01@gmail.com",
+        "Avatar": "18892ed0-a5d7-11ef-942d-f9540d050917.jpeg"
+    },
+    {
+        "Id": "afc113c0-a5d8-11ef-942d-f9540d050917",
+        "Name": "ddd",
+        "Phone": "(444) 444-4444",
+        "Email": "d@sd.com",
+        "Avatar": "afc13ad0-a5d8-11ef-942d-f9540d050917.gif"
+    }
+]
