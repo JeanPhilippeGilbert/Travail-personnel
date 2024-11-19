@@ -5,14 +5,14 @@ import Controller from './Controller.js';
 export default class PostsController extends Controller{
     constructor(HttpContext) {
         super(HttpContext, new Repository(new PostModel()));
-        data.Creation = Date.now();
-        console.log(Date.now());
     }
 
 
     post(data) {
         console.info("in");
         // Ajoute la date de création avant d'appeler le repository
+        data.Creation = Date.now();
+    
         // Appelle le repository pour ajouter l'élément
         data = this.repository.add(data);
     
@@ -26,6 +26,7 @@ export default class PostsController extends Controller{
         }
     }
     put(data) {
+        data.Creation = Date.now();
         //if (!isNaN(this.HttpContext.path.id)) {
         if (this.HttpContext.path.id !== '') {
             data = this.repository.update(this.HttpContext.path.id, data);

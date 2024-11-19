@@ -1,4 +1,4 @@
-const periodicRefreshPeriod = 10;
+const periodicRefreshPeriod = 5;
 let categories = [];
 let selectedCategory = "";
 let currentETag = "";
@@ -64,6 +64,7 @@ async function renderPosts(queryString = "",input = null) {
                     containsInput.push(post);
                 }
             });
+            console.log(post.Creation)
              sortedPosts = containsInput.sort((a, b) => b.Creation - a.Creation);
         }
         else
